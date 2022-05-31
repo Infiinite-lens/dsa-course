@@ -1,28 +1,25 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import classes from "./Navbar.module.css";
+import TopicsList from "./TopicsList";
 
 function Navbar() {
   return (
     <nav className={classes.navbar}>
+      <div className={classes.left}>
+        <Link to="/">Home</Link>
+      </div>
       <>
-        <Link to="/">
-          <FontAwesomeIcon icon="house-chimney-crack" />
-        </Link>
+        <Link to="/contacts">Contacts</Link>
       </>
       <>
-        {/* <FontAwesomeIcon icon="fa-house-chimney" /> */}
-        <Link to="/topics">Topics</Link>
-      </>
-      <>
-        {/* <FontAwesomeIcon icon="fa-house-chimney" /> */}
         <Link to="/about">About</Link>
       </>
       <>
-        {/* <FontAwesomeIcon icon="fa-house-chimney" /> */}
-        <Link to="/contacts">Contacts</Link>
+        <Link to="/topics" id="topic">
+          <TopicsList />
+        </Link>
       </>
     </nav>
   );

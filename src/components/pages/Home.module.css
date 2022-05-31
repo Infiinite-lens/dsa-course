@@ -1,0 +1,32 @@
+.hero-page {
+  height: 60vh;
+  width: 1414px;
+  /* width: 96vw; */
+  background-color: #d9d9d9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  color: #651717;
+}
+
+.text {
+  margin-top: 50px;
+}
+
+.name h2 {
+  font-size: 20px;
+  color: black;
+}
+
+.and {
+  font-size: 20px;
+  color: #1d1b1b;
+}
+
+@media screen and (max-width: 1458px) {
+  .hero-page {
+    width: 80vw;
+  }
+}
