@@ -1,0 +1,17 @@
+.navbar {
+  background-color: yellow;
+  height: 60px;
+}
+
+.navbar a {
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.navbar a:hover {
+  color: black;
+}
+
+.icon {
+  background-color: pink;
+}
