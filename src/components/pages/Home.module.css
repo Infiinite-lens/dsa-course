@@ -2,28 +2,35 @@
   height: 60vh;
   width: 1414px;
   /* width: 96vw; */
-  background-color: #d9d9d9;
+  background-color: #4e4b4b;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 20px;
-  color: #651717;
+  color: #910f0f;
   border-radius: 20px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.hero-wrapper {
+  position: relative;
 }
 
 .text {
-  margin-top: 50px;
+  margin-top: 10%;
 }
 
 .name h2 {
   font-size: 20px;
-  color: black;
+  color: rgb(187, 195, 224);
+  font-style: italic;
 }
 
 .and {
   font-size: 20px;
-  color: #1d1b1b;
+  color: rgb(0, 0, 0);
 }
 
 @media screen and (max-width: 1458px) {
