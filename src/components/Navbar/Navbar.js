@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import classes from "./Navbar.module.css";
-import TopicsList from "./TopicsList";
 
 function Navbar() {
   return (
@@ -18,7 +17,7 @@ function Navbar() {
       </>
       <>
         <Link to="/topics" id="topic">
-          <TopicsList />
+          Topics
         </Link>
       </>
     </nav>
@@ -26,3 +25,5 @@ function Navbar() {
 }
 
 export default Navbar;
+
+// onMouseMove={dropdownHandler}
