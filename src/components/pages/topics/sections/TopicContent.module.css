@@ -1,4 +1,12 @@
 .topic-content {
   border: 5px solid red;
   width: 70vw;
+  margin: 8vh 0;
+  background-color: blanchedalmond;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.wrapper {
+  text-align: left;
 }
