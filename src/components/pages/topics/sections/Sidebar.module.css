@@ -6,6 +6,7 @@
   justify-content: space-around;
   padding: 0 3px 3px 3px;
   border-radius: 5px;
+  position: fixed;
 }
 
 .links {

@@ -1,9 +1,18 @@
 .topics {
   display: flex;
   flex-direction: row;
-  border: 5px solid yellow;
+  /* border: 5px solid yellow; */
 }
 
+/* .content,
+.sidebar {
+  margin-top: 50px;
+} */
+
 .content {
-  margin-left: 13%;
+  margin-left: 20%;
+}
+
+.title {
+  color: white;
 }

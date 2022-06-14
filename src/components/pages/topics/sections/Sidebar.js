@@ -8,18 +8,18 @@ function Sidebar() {
     <div className={classes.sidebar}>
       <h1>Topics</h1>
       <div className={classes.links}>
-        <Link to="topics/sorting">Sorting</Link>
-        <Link to="topics/recursion">Recursion</Link>
-        <Link to="topics/big'O'">Big 'O'</Link>
-        <Link to="topics/searching">Searching</Link>
-        <Link to="topics/lists">Lists</Link>
-        <Link to="topics/graphs">Graphs</Link>
-        <Link to="topics/stacks">Stacks</Link>
-        <Link to="topics/queues">Queues</Link>
-        <Link to="topics/tree-traversal">Tree Traversal</Link>
-        <Link to="topics/dijkstra's-algorithm">Dijkstra's Algorithm</Link>
-        <Link to="topics/binary-heaps">Binary Heaps</Link>
-        <Link to="topics/hash-tables">Hash Tables</Link>
+        <Link to="/contacts">Sorting</Link>
+        <Link to="/recursion">Recursion</Link>
+        <Link to="/big'O'">Big 'O'</Link>
+        <Link to="/searching">Searching</Link>
+        <Link to="/lists">Lists</Link>
+        <Link to="/graphs">Graphs</Link>
+        <Link to="/stacks">Stacks</Link>
+        <Link to="/queues">Queues</Link>
+        <Link to="/tree-traversal">Tree Traversal</Link>
+        <Link to="/dijkstra's-algorithm">Dijkstra's Algorithm</Link>
+        <Link to="/binary-heaps">Binary Heaps</Link>
+        <Link to="/hash-tables">Hash Tables</Link>
       </div>
     </div>
   );

@@ -1,12 +1,68 @@
 .topic-content {
-  border: 5px solid red;
+  /* border: 5px solid red; */
   width: 70vw;
   margin: 8vh 0;
-  background-color: blanchedalmond;
+  background-color: slategrey;
   border-radius: 20px;
   padding: 10px;
+  /* height: auto; */
+}
+
+.title {
+  color: white;
 }
 
 .wrapper {
   text-align: left;
+}
+
+.container {
+  /* border: 4px solid maroon; */
+  margin: 10px;
+  padding: 5px;
+  height: 600px;
+  overflow: auto;
+  background-color: white;
+  /* border: 5px solid yellow; */
+}
+
+.left {
+  float: left;
+  width: 30%;
+  margin: 5px;
+  position: absolute;
+  padding: 3px;
+}
+.left h2 {
+  text-align: center;
+}
+
+.pseudo {
+  width: 100%;
+  background-color: aliceblue;
+  /* border: 3px solid blue; */
+  margin: 5px;
+}
+
+.snippet {
+  background-color: brown;
+}
+.right {
+  width: 50%;
+  float: right;
+  text-align: center;
+}
+
+.explanation {
+  background-color: aqua;
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+}
+
+td {
+  border: 3px solid black;
 }
